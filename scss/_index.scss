@@ -1,8 +1,57 @@
 main {
+  background-color: rgb(68, 65, 65);
   .background {
     img {
       object-fit: cover;
       width: 100%;
+    }
+  }
+
+  .top__seller {
+    h3 {
+      @include margin-padding(45%, rgb(190, 185, 185));
+      border-radius: 10%;
+    }
+  }
+
+  .products__mq {
+    .products__card {
+      @include margin-padding(auto, rgb(190, 185, 185));
+      transition: 0.4s ease;
+      &:hover {
+        transform: scale(1.2);
+      }
+      h2 {
+        z-index: 2;
+        background-color: orange;
+        width: 20%;
+        position: absolute;
+        border-radius: 10%;
+      }
+    }
+  }
+
+  .users__opinions {
+    h3 {
+      @include margin-padding(85%, rgb(190, 185, 185));
+      border-radius: 15%;
+      text-align: center;
+      margin: 2% auto;
+    }
+
+    .carousel-item {
+      width: 96%;
+      .users__opinion--card {
+        @include margin-padding(90%, rgb(190, 185, 185));
+
+        div {
+          text-align: center;
+          img {
+            width: 30%;
+            border-radius: 50%;
+          }
+        }
+      }
     }
   }
 }
