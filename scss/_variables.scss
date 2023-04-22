@@ -1,0 +1,6 @@
+@mixin margin-padding($width, $background) {
+  width: $width;
+  background-color: $background;
+  margin: 2% 2% 0 2%;
+  padding: 2%;
+}

@@ -17,9 +17,61 @@ header nav div ul li:hover {
   border-radius: 30%;
 }
 
+main {
+  background-color: rgb(68, 65, 65);
+}
 main .background img {
   object-fit: cover;
   width: 100%;
+}
+main .top__seller h3 {
+  width: 45%;
+  background-color: rgb(190, 185, 185);
+  margin: 2% 2% 0 2%;
+  padding: 2%;
+  border-radius: 10%;
+}
+main .products__mq .products__card {
+  width: auto;
+  background-color: rgb(190, 185, 185);
+  margin: 2% 2% 0 2%;
+  padding: 2%;
+  transition: 0.4s ease;
+}
+main .products__mq .products__card:hover {
+  transform: scale(1.2);
+}
+main .products__mq .products__card h2 {
+  z-index: 2;
+  background-color: orange;
+  width: 20%;
+  position: absolute;
+  border-radius: 10%;
+}
+main .users__opinions h3 {
+  width: 85%;
+  background-color: rgb(190, 185, 185);
+  margin: 2% 2% 0 2%;
+  padding: 2%;
+  border-radius: 15%;
+  text-align: center;
+  margin: 2% auto;
+}
+main .users__opinions .carousel-item {
+  width: 96%;
+}
+main .users__opinions .carousel-item .users__opinion--card {
+  width: 90%;
+  background-color: rgb(190, 185, 185);
+  margin: 2% 2% 0 2%;
+  padding: 2%;
+}
+main .users__opinions .carousel-item .users__opinion--card div {
+  text-align: center;
+}
+main .users__opinions .carousel-item .users__opinion--card div img {
+  width: 30%;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
