@@ -5,6 +5,11 @@
   padding: 2%;
 }
 
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+}
+
 $background: rgb(68, 65, 65);
 $background-card: rgb(190, 185, 185);
 $price-tag: rgb(255, 165, 0);
