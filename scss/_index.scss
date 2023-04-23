@@ -1,5 +1,5 @@
 main {
-  background-color: rgb(68, 65, 65);
+  background-color: $background;
   .background {
     img {
       object-fit: cover;
@@ -9,31 +9,36 @@ main {
 
   .top__seller {
     h3 {
-      @include margin-padding(45%, rgb(190, 185, 185));
+      @include margin-padding(45%, $background-card);
       border-radius: 10%;
     }
   }
 
   .products__mq {
     .products__card {
-      @include margin-padding(auto, rgb(190, 185, 185));
+      @include margin-padding(auto, $background-card);
       transition: 0.4s ease;
       &:hover {
         transform: scale(1.2);
       }
       h2 {
         z-index: 2;
-        background-color: orange;
+        background-color: $price-tag;
         width: 20%;
         position: absolute;
         border-radius: 10%;
+      }
+      a {
+        img {
+          width: 100%;
+        }
       }
     }
   }
 
   .users__opinions {
     h3 {
-      @include margin-padding(85%, rgb(190, 185, 185));
+      @include margin-padding(85%, $background-card);
       border-radius: 15%;
       text-align: center;
       margin: 2% auto;
@@ -42,7 +47,7 @@ main {
     .carousel-item {
       width: 96%;
       .users__opinion--card {
-        @include margin-padding(90%, rgb(190, 185, 185));
+        @include margin-padding(90%, $background-card);
 
         div {
           text-align: center;

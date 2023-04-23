@@ -17,6 +17,27 @@ header nav div ul li:hover {
   border-radius: 30%;
 }
 
+footer {
+  margin-top: 2rem;
+  background-color: rgb(190, 185, 185);
+}
+footer div {
+  display: flex;
+  justify-content: space-around;
+}
+footer div a img {
+  margin: 1rem 0;
+}
+footer div h5 {
+  text-align: center;
+  margin: auto;
+  margin-top: 0.5rem;
+  background-color: black;
+  color: white;
+  padding: 0 10px;
+  border-radius: 10%;
+}
+
 main {
   background-color: rgb(68, 65, 65);
 }
@@ -43,10 +64,13 @@ main .products__mq .products__card:hover {
 }
 main .products__mq .products__card h2 {
   z-index: 2;
-  background-color: orange;
+  background-color: rgb(255, 165, 0);
   width: 20%;
   position: absolute;
   border-radius: 10%;
+}
+main .products__mq .products__card a img {
+  width: 100%;
 }
 main .users__opinions h3 {
   width: 85%;
