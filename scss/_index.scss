@@ -9,7 +9,7 @@ main {
 
   .top__seller {
     h3 {
-      @include margin-padding(45%, $background-card);
+      @include margin-padding(auto, $background-card);
       border-radius: 10%;
     }
   }
@@ -38,10 +38,12 @@ main {
 
   .users__opinions {
     h3 {
-      @include margin-padding(85%, $background-card);
+      @include margin-padding(auto, $background-card);
       border-radius: 15%;
       text-align: center;
-      margin: 2% auto;
+      display: flex;
+      justify-content: center;
+      margin: 2% 8%;
     }
 
     .carousel-item {
