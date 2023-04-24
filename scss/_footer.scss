@@ -1,6 +1,6 @@
 footer {
-  margin-top: 2rem;
-  background-color: $background-card;
+  padding-top: 2rem;
+  background-color: black;
   div {
     display: flex;
     justify-content: space-around;
@@ -13,7 +13,7 @@ footer {
       text-align: center;
       margin: auto;
       margin-top: 0.5rem;
-      background-color: black;
+      background-color: $background-card;
       color: white;
       padding: 0 10px;
       border-radius: 10%;

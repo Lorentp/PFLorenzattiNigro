@@ -1,0 +1,19 @@
+@mixin margin-padding($width, $background) {
+  width: $width;
+  background-color: $background;
+  margin: 2% 2% 0 2%;
+  padding: 2%;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin title {
+  background-color: rgb(104, 191, 206);
+  margin: 0 auto;
+  text-align: center;
+  height: 3rem;
+  border-radius: 20%;
+}

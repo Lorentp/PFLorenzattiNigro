@@ -1,15 +1,4 @@
-@mixin margin-padding($width, $background) {
-  width: $width;
-  background-color: $background;
-  margin: 2% 2% 0 2%;
-  padding: 2%;
-}
-
-@mixin flex-center {
-  display: flex;
-  justify-content: center;
-}
-
-$background: rgb(68, 65, 65);
+$background--gray: rgb(68, 65, 65);
 $background-card: rgb(190, 185, 185);
 $price-tag: rgb(255, 165, 0);
+$background--lightblue: rgb(104, 191, 206);
