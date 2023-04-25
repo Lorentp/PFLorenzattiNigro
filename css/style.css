@@ -216,5 +216,67 @@ main section .card--product button {
   font-size: 20px;
   text-decoration: none;
 }
+main section .card--product button:hover {
+  background-color: rgb(104, 191, 206);
+}
+
+main .socials h2 {
+  background-color: rgb(190, 185, 185);
+  text-align: center;
+  padding: 1rem;
+}
+main .socials .socials__mq {
+  display: flex;
+  justify-content: center;
+}
+main .socials .socials__mq .socials__card {
+  transition: 0.4s ease;
+  width: auto;
+  background-color: rgb(190, 185, 185);
+  margin: 2% 2% 0 2%;
+  padding: 2%;
+  border-radius: 10%;
+}
+main .socials .socials__mq .socials__card:hover {
+  transform: scale(1.1);
+}
+main .socials .socials__mq .socials__card a img {
+  width: 20%;
+}
+main .section__form {
+  width: auto;
+  background-color: rgb(190, 185, 185);
+  margin: 2% 2% 0 2%;
+  padding: 2%;
+  border-radius: 5%;
+}
+main .section__form .form__card {
+  display: block;
+  justify-content: center;
+}
+main .section__form .form__card .form {
+  display: block;
+  justify-content: center;
+}
+main .section__form .form__card .form input {
+  border: 2px solid black;
+  border-radius: 5%;
+  margin-top: 0.5rem;
+}
+main .section__form .form__card .form input:hover {
+  background-color: rgb(104, 191, 206);
+}
+main .section__form .form__card .form textarea {
+  border: 2px solid black;
+  border-radius: 5%;
+  margin-top: 0.5rem;
+}
+main .section__form .form__card .form .form__button {
+  text-align: center;
+  width: 100%;
+}
+main .section__form .form__card .form .form__button:hover {
+  background-color: rgb(104, 191, 206);
+}
 
 /*# sourceMappingURL=style.css.map */

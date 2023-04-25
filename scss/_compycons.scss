@@ -40,12 +40,14 @@ main {
         background-color: rgb(76, 76, 221, 0.7);
         padding: 1rem;
         margin: 0.3rem auto;
-
         border-radius: 4%;
         width: auto;
         color: black;
         font-size: 20px;
         text-decoration: none;
+        &:hover {
+          background-color: $background--lightblue;
+        }
       }
     }
   }

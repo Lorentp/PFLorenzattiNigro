@@ -1,0 +1,60 @@
+main {
+  .socials {
+    h2 {
+      background-color: $background-card;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .socials__mq {
+      @include flex-center;
+      .socials__card {
+        transition: 0.4s ease;
+        &:hover {
+          transform: scale(1.1);
+        }
+        @include margin-padding(auto, $background-card);
+        border-radius: 10%;
+        a {
+          img {
+            width: 20%;
+          }
+        }
+      }
+    }
+  }
+
+  .section__form {
+    @include margin-padding(auto, $background-card);
+    border-radius: 5%;
+    .form__card {
+      display: block;
+      justify-content: center;
+      .form {
+        display: block;
+        justify-content: center;
+        input {
+          border: 2px solid black;
+          border-radius: 5%;
+          margin-top: 0.5rem;
+          &:hover {
+            background-color: $background--lightblue;
+          }
+        }
+        textarea {
+          border: 2px solid black;
+          border-radius: 5%;
+          margin-top: 0.5rem;
+        }
+        .form__button {
+          text-align: center;
+
+          width: 100%;
+          &:hover {
+            background-color: $background--lightblue;
+          }
+        }
+      }
+    }
+  }
+}
