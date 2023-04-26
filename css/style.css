@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 2px solid black;
 }
 
 @media (min-width: 768px) {
@@ -193,6 +192,9 @@ main .users__opinions .carousel-item .users__opinion--card div img {
   border-radius: 50%;
 }
 
+main {
+  overflow: hidden;
+}
 main .title {
   display: flex;
   justify-content: center;
