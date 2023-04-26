@@ -1,0 +1,101 @@
+@media (min-width: 768px) {
+  nav {
+    .container-fluid {
+      .logo {
+        width: 5%;
+      }
+    }
+  }
+
+  // index //
+  main {
+    .max-width {
+      max-width: 1200px;
+      text-align: center;
+      margin: auto;
+    }
+
+    .top__seller {
+      .products__mq {
+        display: flex;
+      }
+    }
+  }
+
+  // juegos y compsycons //
+
+  main {
+    .products-mq768 {
+      display: flex;
+    }
+  }
+
+  // contacto //
+
+  main {
+    .socials {
+      font-size: 24px;
+    }
+    .section__form {
+      h3 {
+        font-size: 40px;
+      }
+      p {
+        font-size: 24px;
+      }
+
+      .form {
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  // index //
+
+  main {
+    .top__seller {
+      .products__mq {
+        @include flex-center;
+      }
+    }
+
+    .users__opinions {
+      font-size: 32px;
+      width: 60%;
+      margin: auto;
+    }
+  }
+
+  // juegos y compsycons //
+  main {
+    .title {
+      width: 70%;
+      text-align: center;
+      margin: auto;
+      transition: 0.4s ease;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+    .card--mq1200px {
+      width: 60%;
+      text-align: center;
+      margin: auto;
+    }
+  }
+
+  // nosotros //
+
+  main {
+    .mq-flex-1200px {
+      @include flex-center;
+      .about-img {
+        width: 100%;
+        margin: 1rem;
+        text-align: center;
+      }
+    }
+  }
+}

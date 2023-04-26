@@ -27,6 +27,9 @@ main {
   .section__form {
     @include margin-padding(auto, $background-card);
     border-radius: 5%;
+    .form {
+      width: 100%;
+    }
     .form__card {
       display: block;
       justify-content: center;

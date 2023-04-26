@@ -21,6 +21,7 @@ main {
       background-color: $price-tag;
       position: absolute;
       margin-left: -8%;
+      bottom: 0;
       padding: 2%;
       color: black;
       font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -41,6 +42,8 @@ main {
       height: 100%;
       opacity: 0;
       object-fit: cover;
+
+      margin: auto;
       &:hover {
         opacity: 1;
         border-radius: 1%;
