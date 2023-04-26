@@ -27,6 +27,9 @@
   main {
     .products-mq768 {
       display: flex;
+      .card-text {
+        font-size: 16px;
+      }
     }
   }
 
@@ -79,6 +82,13 @@
         transform: scale(1.1);
       }
     }
+    .products-mq1200px {
+      @include flex-center;
+      width: 100%;
+      text-align: center;
+      margin: auto;
+    }
+
     .card--mq1200px {
       width: 60%;
       text-align: center;

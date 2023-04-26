@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Catalogo de productos hardware, reparaciony mantenimiento de Gaming Shop"
+    />
+    <meta
+      name="keywords"
+      content="juegos, gaming, tienda, arreclas, computadora, compu, mantenimiento, reparacion, ofertas, barato"
+    />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
@@ -16,6 +24,7 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="../css/style.css" />
 
@@ -28,6 +37,11 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
     <header>
       <nav class="navbar" style="background-color: #e3f2fd">
         <div class="container-fluid">
@@ -89,13 +103,14 @@
     </header>
 
     <main>
+      <h1>CATALOGOS DE PRODUCTOS</h1>
       <section class="pc">
         <div class="title">
-          <h2>Computadoras!</h2>
+          <h2 data-aos="fade-in">Computadoras!</h2>
         </div>
 
         <div class="products-mq768">
-          <div class="card card--product">
+          <div class="card card--product" data-aos="fade-right">
             <img
               src="../multimedia/compumac.jpg"
               class="card-img-top"
@@ -116,7 +131,7 @@
             <button type="button" class="btn btn-primary">Comprar</button>
           </div>
 
-          <div class="card card--product">
+          <div class="card card--product" data-aos="fade-left">
             <img
               src="../multimedia/compubangho.jpg"
               class="card-img-top"
@@ -136,7 +151,7 @@
           </div>
         </div>
         <div class="card--mq1200px">
-          <div class="card card--product">
+          <div class="card card--product" data-aos="flip-up">
             <img
               src="../multimedia/compulenovo.jpeg"
               class="card-img-top"
@@ -159,11 +174,11 @@
 
       <section class="console">
         <div class="title">
-          <h2>Consolas!</h2>
+          <h2 data-aos="fade-in">Consolas!</h2>
         </div>
 
         <div class="products-mq768">
-          <div class="card card--product">
+          <div class="card card--product" data-aos="fade-right">
             <img src="../multimedia/xbox.jpeg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h4 class="card-title">Xbox One S</h4>
@@ -180,7 +195,7 @@
             <button type="button" class="btn btn-primary">Comprar</button>
           </div>
 
-          <div class="card card--product">
+          <div class="card card--product" data-aos="fade-left">
             <img src="../multimedia/play.jpeg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h4 class="card-title">Play Station 5</h4>
@@ -202,10 +217,10 @@
 
       <section class="hardware">
         <div class="title">
-          <h2>Componentes!</h2>
+          <h2 data-aos="fade-in">Componentes!</h2>
         </div>
         <div class="products-mq768">
-          <div class="card card--product">
+          <div class="card card--product" data-aos="fade-right">
             <img
               src="../multimedia/rtx4090.jpg"
               class="card-img-top"
@@ -226,7 +241,7 @@
             <button type="button" class="btn btn-primary">Comprar</button>
           </div>
 
-          <div class="card card--product">
+          <div class="card card--product" data-aos="fade-left">
             <img src="../multimedia/ram.jpeg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h4 class="card-title">Memoria Ram</h4>
@@ -240,7 +255,7 @@
           </div>
         </div>
         <div class="products-mq768">
-          <div class="card card--product">
+          <div class="card card--product" data-aos="fade-right">
             <img
               src="../multimedia/radeon.jpg"
               class="card-img-top"
@@ -259,7 +274,7 @@
             <button type="button" class="btn btn-primary">Comprar</button>
           </div>
 
-          <div class="card card--product">
+          <div class="card card--product" data-aos="fade-left">
             <img
               src="../multimedia/auriculares.jpg"
               class="card-img-top"
@@ -283,7 +298,7 @@
           </div>
         </div>
         <div class="card--mq1200px">
-          <div class="card card--product">
+          <div class="card card--product" data-aos="flip-up">
             <img src="../multimedia/ssd.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h4 class="card-title">Disco SSD 240 GB</h4>
@@ -305,10 +320,10 @@
 
       <section class="maintenance">
         <div class="title">
-          <h2>Reparación y mantenimientos!</h2>
+          <h2 data-aos="fade-in">Reparación y mantenimientos!</h2>
         </div>
         <div class="card--mq1200px">
-          <div class="card card--product">
+          <div class="card card--product" data-aos="flip-up">
             <img
               src="../multimedia/reparacion.jpeg"
               class="card-img-top"

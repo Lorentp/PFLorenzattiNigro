@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Catalogo de ventas de videojuegos de GamingShop">
+    <meta name="keywords" content="juegos, gaming, tienda, arreclas, computadora, compu, mantenimiento, reparacion, ofertas, barato">
 
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
@@ -16,6 +18,7 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/style.css" />
 
@@ -28,6 +31,12 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+
     <header>
       <nav class="navbar" style="background-color: #e3f2fd">
         <div class="container-fluid">
@@ -91,14 +100,15 @@
     </header>
 
     <main>
+      <h1 data-aos="fade-in">CATALOGO DE VIDEOJUEGOS</h1>
       <section class="action">
         <div class="title">
-          <h2>Acción</h2>
+          <h2 data-aos="fade-in">Acción</h2>
         </div>
         <div class="products-mq1200px">
-          <div class="products-mq768">
+          <div class="products-mq768 ">
 
-            <div class="card card--games text-bg-dark">
+            <div class="card card--games text-bg-dark" data-aos="fade-right">
               <img
               src="../multimedia/thelastofus.jpg"
               class="card-img"
@@ -120,7 +130,7 @@
               <h6 class="price_tag">$5600</h6>
             </div>
           </div>
-          <div class="card card--games text-bg-dark">
+          <div class="card card--games text-bg-dark " data-aos="fade-right">
             <img
             src="../multimedia/assasingcreed.jpg"
             class="card-img"
@@ -131,7 +141,7 @@
               <p class="card-text">
                 Elige tu destino en Assassin's Creed. Pasa de la marginación a
                 la gloria embarcándote en una odisea para descubrir los secretos
-                de tu pasado y cambiar el destino de la antigua Grecia.
+                de tu pasado en la antigua Grecia.
               </p>
               <video
               src="../multimedia/assasinscreedvideo.webm"
@@ -146,7 +156,7 @@
           
         <div class="products-mq768">
 
-          <div class="card card--games text-bg-dark">
+          <div class="card card--games text-bg-dark" data-aos="fade-left">
             <img
             src="../multimedia/residentevil.jpg"
             class="card-img"
@@ -156,9 +166,7 @@
               <h5 class="card-title">Resident Evil Village</h5>
               <p class="card-text">
                 Vive el survival horror como nunca antes en la 8.ª entrega
-                principal de la aclamada serie Resident Evil ambientada unos
-                años después de los escalofriantes sucesos del aclamado Resident
-                Evil 7
+                principal de la aclamada serie Resident Evil.
               </p>
               <video
               src="../multimedia/residentevilvideo.webm"
@@ -169,7 +177,7 @@
               <h6 class="price_tag">$1250</h6>
             </div>
           </div>
-          <div class="card card--games text-bg-dark">
+          <div class="card card--games text-bg-dark" data-aos="fade-left">
             <img src="../multimedia/superhot.jpg" class="card-img" alt="..." />
             <div class="card-img-overlay d-block">
               <h5 class="card-title">Super Hot</h5>
@@ -193,14 +201,14 @@
 
       <section class="strategy">
         <div class="title">
-          <h2>Estrategia</h2>
+          <h2 data-aos="fade-in">Estrategia</h2>
         </div>
         
         <div class="products-mq1200px">
 
           <div class="products-mq768">
             
-            <div class="card card--games text-bg-dark">
+            <div class="card card--games text-bg-dark" data-aos="fade-right">
               <img
               src="../multimedia/totalwarw3.jpg"
               class="card-img"
@@ -222,7 +230,7 @@
               <h6 class="price_tag">$1420</h6>
             </div>
           </div>
-          <div class="card card--games text-bg-dark">
+          <div class="card card--games text-bg-dark" data-aos="fade-right">
             <img src="../multimedia/planetzoo.jpg" class="card-img" alt="..." />
             <div class="card-img-overlay d-block">
               <h5 class="card-title">Planet Zoo</h5>
@@ -243,7 +251,7 @@
         </div>
         <div class="products-mq768">
           
-          <div class="card card--games text-bg-dark">
+          <div class="card card--games text-bg-dark" data-aos="fade-left">
             <img
             src="../multimedia/mountandblade.jpg"
             class="card-img"
@@ -264,7 +272,7 @@
               <h6 class="price_tag">$9930</h6>
             </div>
           </div>
-          <div class="card card--games text-bg-dark">
+          <div class="card card--games text-bg-dark" data-aos="fade-left">
             <img
             src="../multimedia/totalwaratilla.jpg"
             class="card-img"
@@ -293,12 +301,12 @@
 
       <section class="simulator">
         <div class="title">
-          <h2>Simulación</h2>
+          <h2 data-aos="fade-in">Simulación</h2>
         </div>
         <div class="products-mq1200px">>
           <div class="products-mq768">
 
-            <div class="card card--games text-bg-dark">
+            <div class="card card--games text-bg-dark" data-aos="fade-right">
               <img src="../multimedia/farming22.jpg" class="card-img" alt="..." />
               <div class="card-img-overlay d-block">
                 <h5 class="card-title">Farming Simulator 2022</h5>
@@ -315,7 +323,7 @@
                 <h6 class="price_tag">$4620</h6>
               </div>
             </div>
-            <div class="card card--games text-bg-dark">
+            <div class="card card--games text-bg-dark" data-aos="fade-right">
               <img
               src="../multimedia/prisonarchitect.jpg"
               class="card-img"
@@ -340,7 +348,7 @@
           </div>
           <div class="products-mq768">
 
-            <div class="card card--games text-bg-dark">
+            <div class="card card--games text-bg-dark" data-aos="fade-left">
               <img
               src="../multimedia/wrcgenerations.jpg"
               class="card-img"
@@ -362,7 +370,7 @@
                 <h6 class="price_tag">$6300</h6>
               </div>
             </div>
-            <div class="card card--games text-bg-dark">
+            <div class="card card--games text-bg-dark" data-aos="fade-left">
               <img
               src="../multimedia/thiefsimulartotr.jpg"
               class="card-img"
@@ -389,19 +397,19 @@
 
       <section class="rpg">
         <div class="title">
-          <h2>RPG</h2>
+          <h2 data-aos="fade-in">RPG</h2>
         </div>
         <div class="products-mq1200px">
           <div class="products-mq768">
 
-            <div class="card card--games text-bg-dark">
+            <div class="card card--games text-bg-dark" data-aos="fade-right">
               <img src="../multimedia/evilwest.jpg" class="card-img" alt="..." />
               <div class="card-img-overlay d-block">
                 <h5 class="card-title">Evil West</h5>
                 <p class="card-text">
                   El mal nunca duerme… pero sí sangra. Una oscura amenaza consume
                   la frontera americana. Como uno de los últimos agentes de una
-                  institución ultrasecreta dedicada a cazar vampiros
+                  institución ultrasecreta.
                 </p>
                 <video
                 src="../multimedia/evilwestvideo.webm"
@@ -412,7 +420,7 @@
                 <h6 class="price_tag">$1110</h6>
               </div>
             </div>
-            <div class="card card--games text-bg-dark">
+            <div class="card card--games text-bg-dark" data-aos="fade-right">
               <img src="../multimedia/wildwest.jpg" class="card-img" alt="..." />
               <div class="card-img-overlay d-block">
                 <h5 class="card-title">Wild West Dynasty</h5>
@@ -433,7 +441,7 @@
           </div>
           <div class="products-mq768">
 
-            <div class="card card--games text-bg-dark">
+            <div class="card card--games text-bg-dark" data-aos="fade-left">
               <div class="media">
                 <img src="../multimedia/terraria.jpg" 
                 class="card-img"
@@ -443,9 +451,7 @@
                 <h5 class="card-title">Terraria</h5>
                 <p class="card-text">
                 Terraria es un juego de exploración 2D en el que el jugador
-                busca diseñar el mundo de acuerdo con sus propias elecciones y
-                sus habilidades en combate, elaboración y recolección de
-                recursos también.
+                busca diseñar el mundo de acuerdo con sus propias elecciones.
               </p>
               <video
               src="../multimedia/terratiavideo.webm"
@@ -456,7 +462,7 @@
               <h6 class="price_tag">$4500</h6>
             </div>
           </div>
-          <div class="card card--games text-bg-dark">
+          <div class="card card--games text-bg-dark" data-aos="fade-left">
             <img
             src="../multimedia/7daystodie.jpg"
             class="card-img"
@@ -465,10 +471,7 @@
             <div class="card-img-overlay d-block">
               <h5 class="card-title">7 Days To Die</h5>
               <p class="card-text">
-                7 Days to Die para PC comenzó su andadura como un juego de
-                supervivencia de terror en acceso temprano que logró alcanzar su
-                objetivo de financiación y llegó al mercado como un producto
-                completo y pulido.
+                7 Days to Die para PC es un survival horror dond etienes que intentar que pelear contra hordas en una apocalipsis zombie.
               </p>
               <video
               src="../multimedia/7daystodievideo.webm"
